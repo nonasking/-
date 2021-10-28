@@ -1,34 +1,36 @@
-body {
-  background-color: tan;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+media (min-width: 80em) {
+  body {
+    background-color: tan;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-.intro-text {
-  margin: 100px;
-  padding: 50px;
-  width: 600px;
-  border: 2px solid saddlebrown;
-  font-size: x-large;
-}
+  .intro-text {
+    margin: 100px;
+    padding: 50px;
+    width: 600px;
+    border: 2px solid saddlebrown;
+    font-size: x-large;
+  }
 
-.intro-text img {
-  float: left;
-  margin: 5px;
-  padding: 5px;
-}
+  .intro-text img {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+  }
 
-.intro-text p {
-  font-size: large;
-}
+  .intro-text p {
+    font-size: large;
+  }
 
-.likes span {
-  font-size: x-large;
-}
+  .likes span {
+    font-size: x-large;
+  }
 
-.likes img {
-  width: 150px;
-  height: 150px;
+  .likes img {
+    width: 150px;
+    height: 150px;
+  }
 }
